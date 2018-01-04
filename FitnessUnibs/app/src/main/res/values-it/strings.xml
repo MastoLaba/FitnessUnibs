@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="data">Data</string>
+    <string name="ripetizoniAttivita">Ripetizioni</string>
+    <string name="durata">Durata</string>
+    <string name="storico">Storico</string>
+    <string name="tornaSceltaAttivita">Torna agli Esercizi</string>
+    <string name="uscitaScura">Sei sicuro di voler uscire?</string>
+    <string name="statistiche">Statistiche</string>
+    <string name="saltaPausa">Salta pausa</string>
+    <string name="prontoIniziare">Pronto a iniziare ?</string>
+    <string name="tornaEsercizi">Sicuro di voler tornare alla scelta degli esercizi?</string>
+    <string name="ripartenza">Riprendi</string>
+    <string name="finito">Finito!</string>
+    <string name="valutaci">Valutaci</string>
+    <string name="cognome">Cognome</string>
+    <string name="eta">Età:</string>
+    <string name="sesso">Sesso:</string>
+    <string name="lingua">Lingua:</string>
+    <string name="nome">Nome</string>
+    <string name="errore">ERRORE</string>
+    <string name="nuovaPlaylist">Nuova Playlist</string>
+    <string name="numeroSerie">Numero serie</string>
+    <string name="playlist">Playlist</string>
+    <string name="pochiDati">Troppi pochi dati inseriti</string>
+    <string name="salvataggioErrore">Salvataggio NON riuscito</string>
+    <string name="datiPersonali">Dati Personali</string>
+    <string name="f">F</string>
+    <string name="m">M</string>
+    <string name="inserireSerie">Inserire il numero di serie</string>
+    <string name="inserireRipetizioni">Inserire il numero di ripetizioni</string>
+    <string name="nuovaSerie">Serie Personalizzata</string>
+    <string name="premereInziare">Premere il bottone per Iniziare!</string>
+    <string name="sceltaUtilizzo">Scegli cosa utilizzare !</string>
+    <string name="galleria">Galleria</string>
+    <string name="fotocamera">Fotocamera</string>
+    <string name="statisticheSquat">Squat compiuti</string>
+    <string name="statisticheFlessioni">Flessioni compiute</string>
+    <string name="statisticheAddominali">Addominali compiuti</string>
+    <string name="manutenzione">In Manutenzione....</string>
+    <string name="valutazione">Dacci un bel po di stelline</string>
+    <string name="rimanenti">Rimangono</string>
+    <string name="inserireNomePlaylist">Inserire il nome della Playlist</string>
+</resources>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="it.unibs.ing.fp.fitnessunibs.Impostazioni"
+    android:background="@color/Sfondo"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgUtenteImpostazioni"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="4"
+            android:contentDescription="@string/immagine"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:paddingLeft="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/txtNomeImpostazioni"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/nomePunti"
+                    android:textColor="@color/arancioscuro"
+                    android:textSize="@dimen/testiMicro" />
+
+                <TextView
+                    android:id="@+id/txtNomeUtenteImpostazioni"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/arancio" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/lineaSopra"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.065"
+                android:background="@android:color/black"
+                tools:ignore="DuplicateIds" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/txtCognomeImpostazioni"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/cognomePunti"
+                    android:textColor="@color/arancioscuro"
+                    android:textSize="@dimen/testiMicro" />
+
+                <TextView
+                    android:id="@+id/txtCognomeUtenteImpostazioni"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/arancio" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/lineaSopra"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.065"
+                android:background="@android:color/black"
+                tools:ignore="DuplicateIds" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/txtEtaImpostazioni"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/eta"
+                    android:textColor="@color/arancioscuro"
+                    android:textSize="@dimen/testiMicro" />
+
+                <TextView
+                    android:id="@+id/txtEtaUtenteImpostazioni"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/arancio" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/lineaSopra"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.065"
+                android:background="@android:color/black"
+                tools:ignore="DuplicateIds" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/txtSessoImpostazioni"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/sesso"
+                    android:textColor="@color/arancioscuro"
+                    android:textSize="@dimen/testiMicro" />
+
+                <TextView
+                    android:id="@+id/txtLinguaImpostazioni"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/lingua"
+                    android:textAlignment="center"
+                    android:textColor="@color/arancioscuro"
+                    android:textSize="@dimen/testiMicro" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/lineaSopra"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.065"
+        android:background="@color/nero"
+        tools:ignore="DuplicateIds" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bottoneCambiaNomeUtente"
+                style="@style/bottoniGenerali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/piccola"
+                android:contentDescription="@string/modificaDati"
+                android:onClick="onClickCambiaNomeUtente"
+                android:text="@string/modificaDati" />
+
+            <Button
+                android:id="@+id/button"
+                style="@style/bottoniGenerali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/piccola"
+                android:onClick="onClickCambiaLingua"
+                android:text="@string/modificaLingua" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

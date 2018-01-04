@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="it.unibs.ing.fp.fitnessunibs.Svolgimento">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/grigioNero"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dataStoricoListView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:text="@string/data"
+            android:textAllCaps="true"
+            android:textColor="@color/bianco"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nomeEsercizioStoricoListView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tipoEsercizio"
+            android:textAllCaps="true"
+            android:textColor="@color/bianco"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/ripetizioniStoricoListView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/ripetizioniAttivita"
+            android:textAllCaps="true"
+            android:textColor="@color/bianco"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/durataStoricoListView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/durata"
+            android:textAllCaps="true"
+            android:textColor="@color/bianco"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listaStoricoFlessioni"
+        style="@style/Widget.AppCompat.ListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"/>
+</LinearLayout>

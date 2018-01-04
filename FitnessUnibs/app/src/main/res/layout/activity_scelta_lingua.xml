@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="it.unibs.ing.fp.fitnessunibs.SceltaLingua"
+    android:orientation="vertical"
+    android:layout_weight="3"
+    android:background="@color/Sfondo">
+
+    <ImageButton
+        android:id="@+id/bottoneItaliano"
+        android:layout_width="210dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/italiano"
+        android:layout_weight="1"
+        android:contentDescription="@string/lingua" />
+
+    <ImageButton
+        android:id="@+id/bottoneInglese"
+        android:layout_width="210dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/inglese"
+        android:layout_weight="1"
+        android:contentDescription="@string/lingua"/>
+
+    <ImageButton
+        android:id="@+id/bottoneSpagnolo"
+        android:layout_width="210dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/spagnolo"
+        android:layout_weight="1"
+        android:contentDescription="@string/lingua"/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FitnessUnibs</string>
+    <string name="aggiorna">Update</string>
+    <string name="immagine">Image</string>
+    <string name="salva">Save</string>
+    <string name="aiutoInserimentoNuovoNome">New account name</string>
+    <string name="NomeUtente">"User name: "</string>
+    <string name="fileAccount">fileAccount.txt</string>
+    <string name="testoBottoneAttivita">Train yourself!</string>
+    <string name="stringaBenvenuto">Welcome to the Home</string>
+    <string name="strSceltaAttivita">Select an action</string>
+    <string name="addominali"></string>
+    <string name="data">Date</string>
+    <string name="impostazioni">Settings</string>
+    <string name="tornaHome">Back Home</string>
+    <string name="f">F</string>
+    <string name="m">M</string>
+</resources>

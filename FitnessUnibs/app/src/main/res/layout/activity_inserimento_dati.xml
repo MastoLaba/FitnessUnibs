@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Sfondo"
+    tools:context="it.unibs.ing.fp.fitnessunibs.InserimentoDati">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutIntestazione"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/lineaSopra"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/arancio"
+            android:gravity="center"
+            android:text="@string/datiPersonali"
+            android:textColor="@color/bianco"
+            android:textSize="@dimen/testiPiccoli"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/lineaSotto"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05"
+            android:background="@android:color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtInserimentoDatiNome"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/piccola"
+                android:layout_marginStart="@dimen/piccola"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/nomePunti"
+                android:textColor="@color/nero"
+                android:textSize="@dimen/testiMicro"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editNomeInserimentoDati"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/piccola"
+                android:layout_marginLeft="@dimen/piccola"
+                android:layout_marginRight="@dimen/piccola"
+                android:layout_weight="1"
+                android:hint="@string/inserisciNome"
+                android:textAlignment="center"
+                android:textSize="@dimen/testiNano"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtInserimentoDatiCognome"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/piccola"
+                android:layout_marginStart="@dimen/piccola"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/cognomePunti"
+                android:textColor="@color/nero"
+                android:textColorLink="@color/arancio"
+                android:textSize="@dimen/testiMicro"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editCognomeInserimentoDati"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/piccola"
+                android:layout_marginLeft="@dimen/piccola"
+                android:layout_marginRight="@dimen/piccola"
+                android:layout_weight="1"
+                android:hint="@string/inserisciCognome"
+                android:textAlignment="center"
+                android:textColorLink="@color/arancio"
+                android:textSize="@dimen/testiNano"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtInserimentoDatiSesso"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/piccola"
+                android:layout_marginStart="@dimen/piccola"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/eta"
+                android:textColor="@color/nero"
+                android:textColorLink="@color/arancio"
+                android:textSize="@dimen/testiMicro"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editEtaInserimentoDati"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/piccola"
+                android:layout_marginLeft="@dimen/piccola"
+                android:layout_marginRight="@dimen/piccola"
+                android:layout_weight="1"
+                android:hint="@string/inserisciEta"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textColorLink="@color/arancio"
+                android:textSize="@dimen/testiNano"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textSesso"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/piccola"
+                android:layout_marginStart="@dimen/piccola"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/sesso"
+                android:textColor="@color/nero"
+                android:textColorLink="@color/arancio"
+                android:textSize="@dimen/testiMicro"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupInserimentoDati"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/piccola"
+                android:layout_marginRight="@dimen/piccola"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioM"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/m" />
+
+                <RadioButton
+                    android:id="@+id/radioF"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/f" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/fotoscattata"
+        android:layout_width="258dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="2"
+        android:contentDescription="@string/immagine"
+        android:onClick="cambiaFoto"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bottoneSalva"
+            style="@style/bottoniGenerali"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:onClick="onDateSave"
+            android:text="@string/salva" />
+
+        <Button
+            android:id="@+id/bottoneRipristina"
+            style="@style/bottoniGenerali"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:onClick="onDateRipristino"
+
+            android:text="@string/ripristina" />
+    </LinearLayout>
+</LinearLayout>

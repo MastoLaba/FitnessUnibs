@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:screenOrientation="portrait"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b8f19b84"
+    android:id="@+id/drawer_layout_home"
+    tools:context="it.unibs.ing.fp.fitnessunibs.Home">
+
+    <ScrollView
+        android:id="@+id/scrollelist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="outsideInset">
+
+        <LinearLayout
+            android:id="@+id/linearHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnAddominali"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="@dimen/marginiHome"
+                android:layout_weight="1"
+                android:background="@drawable/abs2"
+                android:gravity="center_vertical"
+                android:onClick="onClickAddominali"
+                android:paddingLeft="5dp"
+                android:text="@string/addominali"
+                android:textAlignment="gravity"
+                android:textColor="@color/actionBar"
+                android:textSize="@dimen/testiPiccoli"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/btnFlessioni"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="@dimen/marginiHome"
+                android:layout_weight="1"
+                android:background="@drawable/pettorali2"
+                android:gravity="center_vertical"
+                android:onClick="onClickFlessioni"
+                android:paddingRight="5dp"
+                android:text="@string/flessioni"
+                android:textAlignment="textEnd"
+                android:textColor="@color/actionBar"
+                android:textSize="@dimen/testiPiccoli"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/btnSquat"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="@dimen/marginiHome"
+                android:layout_weight="1"
+                android:background="@drawable/squat2"
+                android:gravity="center_vertical"
+                android:onClick="onClickSquat"
+                android:paddingLeft="5dp"
+                android:text="@string/squat"
+                android:textAlignment="gravity"
+                android:textColor="@color/actionBar"
+                android:textSize="@dimen/testiPiccoli"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/btnPlaylist"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="@dimen/marginiHome"
+                android:layout_weight="1"
+                android:background="@drawable/playlist1"
+                android:gravity="center_vertical"
+                android:onClick="onClickPlaylist"
+                android:paddingRight="5dp"
+                android:text="@string/playlist"
+                android:textAlignment="textEnd"
+                android:textColor="@color/actionBar"
+                android:textSize="@dimen/testiPiccoli"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+<android.support.design.widget.NavigationView
+    android:id="@+id/menuLaterale"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    app:itemTextColor="@color/bianco"
+    android:background="@color/aranciochiaro"
+    app:headerLayout="@layout/header_menu_laterale"
+    app:menu="@menu/drawer_menu"/>
+
+</android.support.v4.widget.DrawerLayout>

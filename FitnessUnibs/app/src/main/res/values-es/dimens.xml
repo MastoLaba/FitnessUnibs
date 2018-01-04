@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nano">5dp</dimen>
+    <dimen name="testiPiccoli">25sp</dimen>
+    <dimen name="micro">10dp</dimen>
+    <dimen name="testiMicro">15sp</dimen>
+</resources>
