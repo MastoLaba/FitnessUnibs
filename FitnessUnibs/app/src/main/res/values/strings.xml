@@ -84,4 +84,6 @@
     <string name="nomePunti">Nome:</string>
     <string name="cognomePunti">Cognome:</string>
     <string name="aiutoSvolgi">Aiuto svolgimento</string>
+    <string name="quindiciSecondi">15 secondi</string>
+    <string name="decisette">17</string>
 </resources>

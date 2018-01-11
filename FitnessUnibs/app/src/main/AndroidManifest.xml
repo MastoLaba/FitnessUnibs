@@ -47,7 +47,7 @@
             android:screenOrientation="portrait"
             android:parentActivityName=".Home"/>
         <activity android:name=".Svolgimento"
-            android:screenOrientation="landscape"
+            android:screenOrientation="sensorLandscape"
             android:theme="@style/AppTheme2"></activity>
     </application>
 

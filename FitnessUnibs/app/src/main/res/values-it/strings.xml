@@ -41,4 +41,6 @@
     <string name="valutazione">Dacci un bel po di stelline</string>
     <string name="rimanenti">Rimangono</string>
     <string name="inserireNomePlaylist">Inserire il nome della Playlist</string>
+    <string name="quindiciSecondi">15 secondi</string>
+    <string name="decisette">17</string>
 </resources>

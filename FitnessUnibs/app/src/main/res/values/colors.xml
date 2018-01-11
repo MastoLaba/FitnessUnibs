@@ -28,4 +28,5 @@
     <color name="rosso">#ff0606</color>
     <color name="giallo">#b5f2ff01</color>
     <color name="Sfondo">#b8f19b84</color>
+    <color name="trasparente">#00000000</color>
 </resources>

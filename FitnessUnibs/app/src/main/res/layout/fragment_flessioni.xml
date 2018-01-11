@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#a3be2105"
-        android:orientation="vertical">
-
+    android:onClick="onClickNascondiFragmentSvolgimento"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView3"
@@ -19,14 +18,4 @@
         android:textColor="@color/bianco"
         android:textSize="20sp"
         android:textStyle="bold|italic" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="140dp"
-            android:text="@string/chiudiConsiglio"
-            android:textAlignment="center"
-            android:textAllCaps="true"
-            android:textColor="@color/giallo"
-            android:textSize="12sp"
-            android:textStyle="bold|italic"/>
-    </LinearLayout>
+</LinearLayout>

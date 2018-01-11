@@ -8,4 +8,5 @@
     <dimen name="testiMicro">18sp</dimen>
     <dimen name="testiNano">14sp</dimen>
     <dimen name="grande">90dp</dimen>
+    <dimen name="cinque">5dp</dimen>
 </resources>
