@@ -86,4 +86,5 @@
     <string name="aiutoSvolgi">Aiuto svolgimento</string>
     <string name="quindiciSecondi">15 secondi</string>
     <string name="decisette">17</string>
+    <string name="tempoTotaleFormat">Tempo totale impiegato %02d:%02d </string>
 </resources>
