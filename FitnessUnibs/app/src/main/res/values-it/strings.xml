@@ -34,13 +34,9 @@
     <string name="sceltaUtilizzo">Scegli cosa utilizzare !</string>
     <string name="galleria">Galleria</string>
     <string name="fotocamera">Fotocamera</string>
-    <string name="statisticheSquat">Squat compiuti</string>
-    <string name="statisticheFlessioni">Flessioni compiute</string>
-    <string name="statisticheAddominali">Addominali compiuti</string>
     <string name="manutenzione">In Manutenzione....</string>
     <string name="valutazione">Dacci un bel po di stelline</string>
     <string name="rimanenti">Rimangono</string>
     <string name="inserireNomePlaylist">Inserire il nome della Playlist</string>
-    <string name="quindiciSecondi">15 secondi</string>
-    <string name="decisette">17</string>
+    <string name="ripetizioniFatte">Ripetizioni fatte:</string>
 </resources>

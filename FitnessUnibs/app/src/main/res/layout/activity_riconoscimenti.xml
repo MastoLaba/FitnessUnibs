@@ -16,7 +16,7 @@
         android:layout_marginTop="172dp"
         android:text="@string/rinonoscimento"
         android:textAlignment="center"
-        android:textColor="@color/arancioscuro"
+        android:textColor="@color/arancioScuro"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="136dp"
         tools:layout_editor_absoluteY="229dp" />

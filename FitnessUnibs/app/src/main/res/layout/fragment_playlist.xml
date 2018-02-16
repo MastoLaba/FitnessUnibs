@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
     android:background="#d2be2105"
-    android:onClick="onClickNascondiFragmentPlaylist"
-    android:orientation="vertical">
-
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:onClick="onClickNascondiFragmentPlaylist">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
@@ -71,6 +72,11 @@
                 android:textColor="@color/bianco"
                 android:textSize="12sp" />
         </LinearLayout>
+
+
+
+
+
     </LinearLayout>
 
     <TextView
@@ -83,4 +89,5 @@
         android:textAppearance="@android:style/TextAppearance.Material.Notification"
         android:textColor="@color/bianco"
         android:textSize="24sp" />
+
 </LinearLayout>

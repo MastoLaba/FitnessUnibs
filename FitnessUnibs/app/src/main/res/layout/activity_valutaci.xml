@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
@@ -7,6 +8,16 @@
     android:layout_marginTop="110dp"
     android:orientation="vertical"
     tools:context="it.unibs.ing.fp.fitnessunibs.Valutaci">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/arancio"
+        android:gravity="center"
+        android:text="@string/valutaci"
+        android:textColor="@color/bianco"
+        android:textSize="@dimen/testiPiccoli"
+        android:textStyle="bold" />
 
     <RatingBar
         android:id="@+id/ratingBarValutaci"

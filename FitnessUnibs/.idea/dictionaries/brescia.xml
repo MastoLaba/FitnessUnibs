@@ -2,102 +2,47 @@
   <dictionary name="brescia">
     <words>
       <w>abbandona</w>
-      <w>abilitati</w>
       <w>acce</w>
       <w>accellerazione</w>
       <w>adattatore</w>
-      <w>aggiorna</w>
       <w>aggiungi</w>
-      <w>alcun</w>
-      <w>alcuna</w>
-      <w>alle</w>
       <w>allenamento</w>
       <w>altezza</w>
       <w>altrimenti</w>
       <w>annulla</w>
       <w>arancio</w>
-      <w>assegna</w>
-      <w>atti</w>
-      <w>attiva</w>
-      <w>attivare</w>
-      <w>attraverso</w>
       <w>avere</w>
-      <w>avvenga</w>
-      <w>avvenuta</w>
       <w>avviso</w>
-      <w>baos</w>
       <w>bello</w>
-      <w>blocca</w>
       <w>cambia</w>
-      <w>cambio</w>
       <w>cancella</w>
       <w>cancellati</w>
-      <w>caso</w>
-      <w>cercata</w>
-      <w>cercato</w>
       <w>chiave</w>
       <w>chrono</w>
-      <w>ciascuna</w>
-      <w>cinque</w>
-      <w>codificata</w>
       <w>cognome</w>
-      <w>compressione</w>
-      <w>confermare</w>
-      <w>conformi</w>
-      <w>consigliato</w>
       <w>conta</w>
-      <w>contare</w>
       <w>conteggio</w>
-      <w>contenente</w>
-      <w>contiene</w>
-      <w>conto</w>
-      <w>controlla</w>
       <w>controllo</w>
-      <w>converte</w>
-      <w>convertire</w>
-      <w>corrispondente</w>
       <w>cronometro</w>
-      <w>decidere</w>
-      <w>definisce</w>
       <w>delle</w>
-      <w>descritta</w>
-      <w>descrittiva</w>
-      <w>descrive</w>
       <w>desidera</w>
-      <w>devono</w>
-      <w>dimezzata</w>
-      <w>disabilitare</w>
-      <w>disabilitata</w>
-      <w>disattivare</w>
       <w>durata</w>
-      <w>effettua</w>
       <w>elemento</w>
-      <w>elimina</w>
-      <w>eliminata</w>
       <w>errore</w>
-      <w>eseguiti</w>
       <w>esercizi</w>
       <w>esercizio</w>
-      <w>estrae</w>
-      <w>estrarre</w>
-      <w>eventuale</w>
       <w>fatte</w>
       <w>femmina</w>
       <w>finisched</w>
       <w>finito</w>
       <w>fitnessunibs</w>
-      <w>formato</w>
       <w>foto</w>
       <w>fotoscattata</w>
-      <w>funzione</w>
       <w>gestione</w>
-      <w>gestisce</w>
       <w>giornata</w>
       <w>glute</w>
       <w>gravita</w>
-      <w>impiegato</w>
       <w>imposta</w>
-      <w>informazioni</w>
       <w>inglese</w>
       <w>inizia</w>
       <w>iniziale</w>
@@ -105,39 +50,26 @@
       <w>iniziare</w>
       <w>inizio</w>
       <w>inserisci</w>
-      <w>inseriti</w>
       <w>interi</w>
-      <w>italiaa</w>
       <w>italiano</w>
       <w>laterale</w>
       <w>lettura</w>
       <w>lingua</w>
-      <w>lingue</w>
       <w>lista</w>
       <w>logoapp</w>
       <w>lungo</w>
       <w>margini</w>
       <w>maschio</w>
-      <w>meno</w>
       <w>messaggio</w>
-      <w>metodi</w>
       <w>metodo</w>
-      <w>mette</w>
       <w>minuti</w>
-      <w>misurazione</w>
       <w>modifica</w>
-      <w>mostrati</w>
       <w>nametext</w>
-      <w>nasconde</w>
-      <w>nascondi</w>
-      <w>nella</w>
       <w>numero</w>
       <w>nuova</w>
       <w>oggetti</w>
       <w>oggetto</w>
       <w>oggi</w>
-      <w>opportunamente</w>
-      <w>ottenere</w>
       <w>pagina</w>
       <w>partenza</w>
       <w>partito</w>
@@ -145,14 +77,10 @@
       <w>parziali</w>
       <w>pausa</w>
       <w>personalizza</w>
-      <w>personalizzate</w>
-      <w>pettorali</w>
       <w>piccola</w>
       <w>porta</w>
-      <w>possono</w>
       <w>precedente</w>
       <w>prendi</w>
-      <w>presa</w>
       <w>pressione</w>
       <w>primavera</w>
       <w>primo</w>
@@ -160,98 +88,49 @@
       <w>prossimi</w>
       <w>prossimita</w>
       <w>pulire</w>
-      <w>punta</w>
-      <w>quale</w>
-      <w>quante</w>
-      <w>quelle</w>
-      <w>rappresenta</w>
-      <w>rappresentante</w>
-      <w>requisiti</w>
-      <w>restituisce</w>
-      <w>restituita</w>
-      <w>riassunto</w>
-      <w>ricava</w>
-      <w>ricercato</w>
       <w>richiamato</w>
       <w>riconoscimenti</w>
       <w>rigaid</w>
-      <w>righe</w>
-      <w>riguardanti</w>
-      <w>rimanere</w>
       <w>ripartenza</w>
       <w>ripetizione</w>
       <w>ripetizioni</w>
-      <w>riporta</w>
       <w>ripristina</w>
-      <w>ripristinare</w>
       <w>ripristino</w>
-      <w>rispetto</w>
       <w>salta</w>
-      <w>salvare</w>
       <w>salvata</w>
       <w>salvataggio</w>
       <w>sapere</w>
-      <w>sblocca</w>
-      <w>sbloccata</w>
-      <w>sbloccati</w>
-      <w>scattando</w>
-      <w>schermata</w>
-      <w>schermo</w>
       <w>scorrevole</w>
       <w>scorrevoli</w>
       <w>scuro</w>
       <w>sdraiato</w>
-      <w>seconda</w>
       <w>secondi</w>
       <w>seduto</w>
       <w>sensore</w>
-      <w>sensori</w>
       <w>serie</w>
       <w>sesso</w>
       <w>sfondo</w>
       <w>sicura</w>
-      <w>sono</w>
       <w>sopra</w>
-      <w>spagna</w>
       <w>spagnolo</w>
-      <w>sposta</w>
       <w>statistiche</w>
-      <w>stesso</w>
       <w>storico</w>
-      <w>successivamente</w>
       <w>surnametext</w>
-      <w>svolgere</w>
       <w>svolgimento</w>
-      <w>svolte</w>
-      <w>tasti</w>
       <w>tasto</w>
-      <w>tenendo</w>
       <w>tipo</w>
       <w>tipologia</w>
       <w>titolo</w>
       <w>tocchi</w>
       <w>torna</w>
-      <w>tornano</w>
       <w>totale</w>
       <w>totali</w>
-      <w>trascorsi</w>
       <w>trascorso</w>
-      <w>trasformare</w>
-      <w>trasparente</w>
-      <w>uguale</w>
       <w>ultima</w>
       <w>uscita</w>
       <w>utilizzato</w>
       <w>valori</w>
-      <w>valu</w>
       <w>valutaci</w>
-      <w>variabile</w>
-      <w>variabili</w>
-      <w>verranno</w>
-      <w>visto</w>
-      <w>voglio</w>
-      <w>vogliono</w>
-      <w>vuota</w>
     </words>
   </dictionary>
 </component>

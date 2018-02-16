@@ -7,51 +7,82 @@ android:layout_height="match_parent"
 android:orientation="vertical"
 android:background="@color/Sfondo"
 tools:context="it.unibs.ing.fp.fitnessunibs.InserimentoDati">
-    <LinearLayout
+
+<LinearLayout
     android:id="@+id/linearLayout2"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="0dp"
     android:layout_marginTop="8dp"
+    android:layout_weight="3"
     android:gravity="center"
     android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
         <TextView
             android:id="@+id/txtStatisticheAddominali"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:text="@string/statisticheAddominali"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
             android:layout_marginLeft="@dimen/piccola"
             android:layout_marginStart="@dimen/piccola"
             android:layout_weight="1"
             android:gravity="center_vertical"
-            android:text="@string/statisticheAddominali"
-            android:textColor="@color/nero"
+            android:textColor="@color/rosso"
             android:textSize="@dimen/testiMicro"
             android:textStyle="bold" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
         <TextView
             android:id="@+id/txtStatisticheFlessioni"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:text="@string/statisticheFlessioni"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
             android:layout_marginLeft="@dimen/piccola"
             android:layout_marginStart="@dimen/piccola"
             android:layout_weight="1"
             android:gravity="center_vertical"
-            android:text="@string/statisticheFlessioni"
-            android:textColor="@color/nero"
+            android:textColor="@color/rosso"
             android:textColorLink="@color/arancio"
             android:textSize="@dimen/testiMicro"
             android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
         <TextView
             android:id="@+id/txtStatisticheSquat"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:text="@string/statisticheSquat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
             android:layout_marginLeft="@dimen/piccola"
             android:layout_marginStart="@dimen/piccola"
             android:layout_weight="1"
             android:gravity="center_vertical"
-            android:text="@string/statisticheSquat"
-            android:textColor="@color/nero"
+            android:textColor="@color/rosso"
             android:textColorLink="@color/arancio"
             android:textSize="@dimen/testiMicro"
             android:textStyle="bold" />
+
+
     </LinearLayout>
+</LinearLayout>
 </LinearLayout>
